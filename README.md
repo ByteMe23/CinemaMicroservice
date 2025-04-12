@@ -1,5 +1,4 @@
 # CinemaMicroservice
-Sure! Here's a clean, professional, and well-structured version of your content rewritten for a README file:
 
 ---
 

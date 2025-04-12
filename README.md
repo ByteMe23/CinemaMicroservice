@@ -209,10 +209,3 @@ Replace `10` with the Film ID.
 
 ---
 
-## 🔗 Repository
-
-GitHub: [Cinema Microservice](https://github.com/Gimi818/CinemaMicroService)
-
----
-
-Let me know if you'd like a markdown version of this README or if you want to enhance it with badges, diagrams, or visuals!

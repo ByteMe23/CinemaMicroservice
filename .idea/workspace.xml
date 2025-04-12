@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c21a0062-5ff2-4598-a166-944a8da4e95d" name="Changes" comment="Updated emailSender configuration">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_3_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_3_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailsender/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/emailsender/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailsender/src/main/java/com/emailsender/email/KafkaEmailListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/emailsender/src/main/java/com/emailsender/email/KafkaEmailListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emailsender/src/main/resources/application.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/kafka-integration" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ZD3HWPmBF3Ramd3659MokA0BUm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gimi/Desktop/CinemaMicroService/emailsender/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;751887dbbf50f72c2f4fdb7a416a48af&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;GenericSQL&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;GenericSQL&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Gimi\Desktop\CinemaMicroService\emailsender\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gimi\Desktop\CinemaMicroService\steps\steps" />
+      <recent name="C:\Users\Gimi\Desktop\CinemaMicroService\steps\microservice-architecture" />
+      <recent name="C:\Users\Gimi\Desktop\CinemaMicroService\steps" />
+      <recent name="C:\Users\Gimi\Desktop\CinemaMicroService\microservice-architecture" />
+      <recent name="C:\Users\Gimi\Desktop\CinemaMicroService\emailsender\src\main\resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.screening" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ticket.ticketingSystem.ticketPriceCalculator" />
+      <recent name="com.ticket.ticketingSystem" />
+      <recent name="com.screening.seat" />
+      <recent name="com.screening.screening.client" />
+      <recent name="com.screening.screening" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+        <option value="SwaggerCodegen" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ScreeningApplication">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrenciesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="currencies" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.currencies.CurrenciesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.discovery.DiscoveryApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.discovery.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailSenderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="emailsender" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.emailsender.EmailSenderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="film" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.service.film.FilmApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScreeningApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="screening" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.screening.ScreeningApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.screening.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="ticket" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ticket.TicketApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="cinema: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="../cinema/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.cinema: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.CurrenciesApplication" />
+      <item itemvalue="Spring Boot.EmailSenderApplication" />
+      <item itemvalue="Spring Boot.FilmApplication" />
+      <item itemvalue="Spring Boot.TicketApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.ScreeningApplication" />
+      <item itemvalue="Spring Boot.DiscoveryApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ScreeningApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.DiscoveryApplication" />
+        <item itemvalue="Docker.cinema: Compose Deployment" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c21a0062-5ff2-4598-a166-944a8da4e95d" name="Changes" comment="" />
+      <created>1701942734646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701942734646</updated>
+      <workItem from="1701942735883" duration="3377000" />
+      <workItem from="1701956249003" duration="8292000" />
+      <workItem from="1701976404534" duration="8744000" />
+      <workItem from="1702022664675" duration="1750000" />
+      <workItem from="1702029918524" duration="1583000" />
+      <workItem from="1702043657509" duration="2803000" />
+      <workItem from="1702059793507" duration="3502000" />
+      <workItem from="1702063680386" duration="332000" />
+      <workItem from="1702289488278" duration="1618000" />
+      <workItem from="1702300679813" duration="8056000" />
+      <workItem from="1702313667080" duration="1528000" />
+      <workItem from="1702331847631" duration="4070000" />
+      <workItem from="1702364394328" duration="1339000" />
+      <workItem from="1702366755591" duration="479000" />
+      <workItem from="1702376803094" duration="1990000" />
+      <workItem from="1702419223289" duration="3187000" />
+      <workItem from="1702452950615" duration="402000" />
+      <workItem from="1702453372817" duration="441000" />
+      <workItem from="1702482621683" duration="11149000" />
+      <workItem from="1702543737737" duration="6916000" />
+      <workItem from="1702560965259" duration="281000" />
+      <workItem from="1702567891572" duration="3406000" />
+      <workItem from="1702628911989" duration="577000" />
+      <workItem from="1702632144463" duration="13066000" />
+      <workItem from="1702720556995" duration="6531000" />
+      <workItem from="1702747763795" duration="5807000" />
+      <workItem from="1702805860031" duration="7007000" />
+      <workItem from="1702830964718" duration="855000" />
+      <workItem from="1702836267424" duration="1650000" />
+      <workItem from="1702969380321" duration="3508000" />
+      <workItem from="1703065207290" duration="115000" />
+      <workItem from="1704381345836" duration="8935000" />
+      <workItem from="1704470600877" duration="6156000" />
+      <workItem from="1704528257148" duration="482000" />
+      <workItem from="1704540726025" duration="3651000" />
+      <workItem from="1704632412415" duration="5069000" />
+      <workItem from="1704706476103" duration="1398000" />
+      <workItem from="1704716775984" duration="118000" />
+      <workItem from="1704737139512" duration="5811000" />
+      <workItem from="1704797243418" duration="12017000" />
+      <workItem from="1704810942605" duration="159000" />
+      <workItem from="1704812333765" duration="189000" />
+      <workItem from="1704812588054" duration="2670000" />
+      <workItem from="1704816519224" duration="1782000" />
+      <workItem from="1704873799147" duration="5442000" />
+      <workItem from="1704907239264" duration="1051000" />
+      <workItem from="1705085049475" duration="1935000" />
+      <workItem from="1707227560941" duration="4503000" />
+      <workItem from="1707255445287" duration="3748000" />
+      <workItem from="1707292358900" duration="5494000" />
+      <workItem from="1707299652723" duration="310000" />
+      <workItem from="1707309695290" duration="3705000" />
+      <workItem from="1707314085008" duration="418000" />
+    </task>
+    <task id="LOCAL-00034" summary="Code refactoring">
+      <created>1702422071729</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1702422071729</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Added messages.properties with messages">
+      <created>1702422091881</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1702422091881</updated>
+    </task>
+    <task id="LOCAL-00036" summary="MicroServices configuration">
+      <created>1702422150228</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1702422150228</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Configuration">
+      <created>1702837608636</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1702837608636</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Added new configuration">
+      <created>1702837653479</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1702837653479</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Created dto class">
+      <created>1702837748430</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1702837748430</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Created TicketPriceCalculator">
+      <created>1702837800378</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1702837800378</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Created enum classes">
+      <created>1702837843247</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1702837843247</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Created Ticket Entity">
+      <created>1702837863863</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1702837863863</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Created TicketController with endpoint">
+      <created>1702837899517</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1702837899517</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Added zipkin dependency">
+      <created>1702934088697</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1702934088697</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Created zipkin docker-compose">
+      <created>1702934112527</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1702934112527</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added new configuration">
+      <created>1702934139393</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1702934139393</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Code refactoring">
+      <created>1704396311833</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1704396311833</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Code refactoring">
+      <created>1704396326925</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1704396326925</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Added create method">
+      <created>1704473100505</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1704473100505</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Added factory pattern and change loops to streams">
+      <created>1704473253450</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1704473253450</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Added properties to pom.xml for testing">
+      <created>1704553277516</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1704553277516</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Created ScreeningServiceTest">
+      <created>1704553295291</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1704553295292</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Created ScreeningValidate with tests">
+      <created>1704553310565</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1704553310565</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Created ScreeningValidate with tests">
+      <created>1704553324707</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1704553324707</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Created ScreeningControllerTest with tests">
+      <created>1704553343811</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1704553343811</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Created SeatServiceTest with tests">
+      <created>1704553356673</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1704553356673</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Created FilmClientTest with tests">
+      <created>1704553369445</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1704553369446</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Code refactoring">
+      <created>1704710839364</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1704710839364</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Added microservice architecture.PNG">
+      <created>1704710860158</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1704710860158</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Added liquibase dependencies to pom.xml">
+      <created>1704804928691</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1704804928691</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Added liquibase classpath to configuration">
+      <created>1704804993134</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1704804993134</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Code refactoring">
+      <created>1704805049210</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1704805049210</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Added 01-create-film-table.sql">
+      <created>1704805099043</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1704805099043</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Added 02-add-films.sql">
+      <created>1704805111119</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1704805111119</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Added 03-create-table-screening.sql">
+      <created>1704805121106</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1704805121106</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Added 04-create-seats-table.sql">
+      <created>1704805130906</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1704805130906</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Added 05-add-screenings.sql">
+      <created>1704805141717</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1704805141717</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Added 06-add-seats.sql">
+      <created>1704805152226</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1704805152226</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Project configuration">
+      <created>1704805168766</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1704805168767</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Added steps">
+      <created>1704811071778</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1704811071778</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Code refactoring">
+      <created>1704811091474</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1704811091474</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Added youtube.PNG">
+      <created>1704816701440</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1704816701440</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Update screening list in 05-add-screenings.sql">
+      <created>1704907306589</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1704907306590</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Added new  microservice architecture schema">
+      <created>1707236724588</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1707236724588</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Updated screenings database">
+      <created>1707314196278</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1707314196278</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Created akhq-config.yml and added kafka configuration">
+      <created>1707314240339</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1707314240339</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Deleted docker-compose.yml for all application">
+      <created>1707314292900</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1707314292900</updated>
+    </task>
+    <task id="LOCAL-00078" summary="Deleted appconfig.yml">
+      <created>1707314303407</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1707314303407</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Added ytpic.PNG">
+      <created>1707314329530</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1707314329530</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Added kafkahq , updated kafka configuration and added all application docker to main docker-compose.yml">
+      <created>1707314422604</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1707314422604</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Updated emailSender application.properties">
+      <created>1707314449108</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1707314449108</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Updated emailSender configuration">
+      <created>1707314484591</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1707314484591</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Created SeatServiceTest with tests" />
+    <MESSAGE value="Created FilmClientTest with tests" />
+    <MESSAGE value="Added microservice architecture.PNG" />
+    <MESSAGE value="Added liquibase dependencies to pom.xml" />
+    <MESSAGE value="Added liquibase classpath to configuration" />
+    <MESSAGE value="Added 01-create-film-table.sql" />
+    <MESSAGE value="Added 02-add-films.sql" />
+    <MESSAGE value="Added 03-create-table-screening.sql" />
+    <MESSAGE value="Added 04-create-seats-table.sql" />
+    <MESSAGE value="Added 05-add-screenings.sql" />
+    <MESSAGE value="Added 06-add-seats.sql" />
+    <MESSAGE value="Project configuration" />
+    <MESSAGE value="Added steps" />
+    <MESSAGE value="Code refactoring" />
+    <MESSAGE value="Added youtube.PNG" />
+    <MESSAGE value="Update screening list in 05-add-screenings.sql" />
+    <MESSAGE value="Added new  microservice architecture schema" />
+    <MESSAGE value="Updated screenings database" />
+    <MESSAGE value="Created akhq-config.yml and added kafka configuration" />
+    <MESSAGE value="Deleted docker-compose.yml for all application" />
+    <MESSAGE value="Deleted appconfig.yml" />
+    <MESSAGE value="Added ytpic.PNG" />
+    <MESSAGE value="Added kafkahq , updated kafka configuration and added all application docker to main docker-compose.yml" />
+    <MESSAGE value="Updated emailSender application.properties" />
+    <MESSAGE value="Updated emailSender configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated emailSender configuration" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CinemaMicroService$All_in_film.ic" NAME="All in film Coverage Results" MODIFIED="1704532111118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/CinemaMicroService$FilmServiceTest.ic" NAME="FilmServiceTest Coverage Results" MODIFIED="1704532422038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.service.film.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CinemaMicroService$FilmClientTest.ic" NAME="FilmClientTest Coverage Results" MODIFIED="1704543195037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.screening.screening.client.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CinemaMicroService$KafkaEmailListenerTest.ic" NAME="KafkaEmailListenerTest Coverage Results" MODIFIED="1707220399760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.emailsender.email.*</FILTER>
+    </SUITE>
+  </component>
+</project>
